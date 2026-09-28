@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InvisEngine</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <main>
+      <h1>InvisEngine</h1>
+      <p class="hint">Prototyp: Dieses Fenster sollte auf dem Monitor sichtbar, in OBS &amp; Co. aber unsichtbar sein.</p>
+
+      <section>
+        <div class="row">
+          <span>Capture-Schutz:</span>
+          <strong id="status">…</strong>
+        </div>
+        <div class="row">
+          <button id="toggle">Schutz umschalten</button>
+          <button id="browser">Test-Browserfenster öffnen</button>
+        </div>
+        <p id="error" class="error"></p>
+      </section>
+
+      <p class="hint">Hotkey <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Space</kbd>: alle Fenster ein-/ausblenden.</p>
+    </main>
+  </body>
+</html>
