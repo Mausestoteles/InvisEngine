@@ -1,0 +1,39 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #16181d;
+  color: #e6e6e6;
+}
+
+main {
+  padding: 16px 24px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.hint {
+  color: #9aa0a6;
+  font-size: 0.9em;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.on {
+  color: #4cd97b;
+}
+
+.off {
+  color: #ff6b6b;
+}
